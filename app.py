@@ -18,6 +18,6 @@ def chat(message,history):
 gr.ChatInterface(chat,
                  title="Xuanke-Chat-Assistant",
                 description="""
-InternLM is mainly developed by Shanghai AI Laboratory.  
+Assistant is mainly developed by Xuanke AI Laboratory.  
                  """,
                  ).queue(1).launch()
