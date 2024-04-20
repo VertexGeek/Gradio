@@ -16,7 +16,7 @@ def chat(message,history):
         yield response
 
 gr.ChatInterface(chat,
-                 title="InternLM2-Chat-7B",
+                 title="Xuanke-Chat-Assistant",
                 description="""
 InternLM is mainly developed by Shanghai AI Laboratory.  
                  """,
